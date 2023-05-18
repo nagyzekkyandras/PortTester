@@ -1,0 +1,82 @@
+# .NET Core / Visual Studio / Rider / ReSharper / NuGet
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.vs/
+*.vscode/
+*.sln.iml
+_ReSharper*/
+*/bin/
+*/obj/
+*.userprefs
+*.dotSettings
+*.suo
+*.cache
+*.bak
+*.user
+*.log
+*.txt
+*.log.*
+*.old
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/*.targets
+!**/packages/*.props
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.opendb
+*.user
+*.suo
+*.sln.docstates
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+*.swp
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# MacOS files
+.DS_Store
