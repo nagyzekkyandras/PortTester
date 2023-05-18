@@ -43,6 +43,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
+          cd PortTester
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"nagyzekkyandras_PortTester" /o:"nagyzekkyandras" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build PortTester -target:Clean
+          dotnet build -target:Clean
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
